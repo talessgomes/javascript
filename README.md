@@ -1,0 +1,2 @@
+# javascript
+Praticle of javascript
