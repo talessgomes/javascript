@@ -24,7 +24,7 @@ function cc(card) {
             break;
     }
 
-    return count + (count > 0 ? "Bet" : "Hold");
+    return count + (count > 0 ? " Bet" : " Hold");
     /*verificando se o count é menor ou mais do que 0
   dependendo do resultado da carta, vai ser imprimido a string */
   
