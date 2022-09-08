@@ -1,0 +1,34 @@
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey",
+    "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+    // Only change code below this line
+    if (strokes === 1) {
+        console.log("Hole-in-one!")
+        return "Hole-in-one!";
+    } else if (strokes <= (par - 2)) {
+        console.log("Eagle");
+        return "Eagle";
+    } else if (strokes === (par - 1)) {
+        console.log("Birdie");
+        return "Birdie";
+    } else if (strokes === par) {
+        console.log("Par");
+        return "Par";
+    } else if (strokes === (par + 1)) {
+        console.log("Bogey");
+        return "Bogey";
+    } else if (strokes === (par + 2)) {
+        console.log("Double Bogey");
+        return "Double Bogey";
+    } else if (strokes >= (par + 3)) {
+        console.log("Go Home!");
+        return "Go Home!";
+    }
+    // Only change code above this line
+}
+
+golfScore(5, 4);
+
+/*O resultado vai ser Birdie,
+porque o número de tacadas foi 5 e o par do buraco foi o 4*/
