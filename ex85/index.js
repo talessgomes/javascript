@@ -11,6 +11,6 @@ const hatValue = testObj.hat;
 const shirtValue = testObj.shirt;
 
 console.log(hatValue);
-//O valor vai ser ballcap
+//O valor vai ser ballcapgit 
 console.log(shirtValue);
-//o valor vai ser jersey
+//o valor vai ser jers
