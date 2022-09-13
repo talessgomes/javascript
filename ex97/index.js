@@ -2,14 +2,17 @@
 const myArray = [];
 
 // Only change code below this line
-let i = 0;
+let i = 5;
 
-while (i <= 5) {
+while (i >= 0) {
     myArray.push(i);
-    i++;
+    i--;
 }
 
 console.log(myArray);
+//[ 5, 4, 3, 2, 1, 0 ]
 
-/*Estou fazendo um looping, o meu while vai ficar rodando
-até que a variável I seja igual ao número 5 */
+/*Ao declarar a variável i como 5
+eu vou diminuir o valor a cada vez que 
+o while for acontecer, logo i vai ficar 
+4 e consequentemente vai diminuir até chegar em 0*/
